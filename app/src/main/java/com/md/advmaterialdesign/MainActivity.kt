@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
 
         button.setOnClickListener {
             //Material CardView
-            val i = Intent(this@MainActivity, MaterialCardView::class.java)
+            val i = Intent(this@MainActivity, BottomNavigation::class.java)
             startActivity(i)
         }
 
@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         button3.setOnClickListener {
             //Cards
-            val i = Intent(this@MainActivity, CardActivity::class.java)
+            val i = Intent(this@MainActivity, BottomSheetActivity::class.java)
             startActivity(i)
         }
 
@@ -35,12 +35,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(i)
         }
 
-        button5.setOnClickListener {
-            //Navigation rail (BETA)
-            val i = Intent(this@MainActivity, NavigationRailActivity::class.java)
-            startActivity(i)
-        }
-
+      
         button6.setOnClickListener {
             //Bottom App Bar
             val i = Intent(this@MainActivity, BottomAppBarActivity::class.java)

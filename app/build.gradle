@@ -33,8 +33,9 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
 
+    implementation 'com.google.android.material:material:1.2.0-alpha01'
 
-    implementation 'com.google.android.material:material:1.0.0-alpha1' //Bottom App Bar
+    //implementation 'com.google.android.material:material:1.0.0-alpha1' //Bottom App Bar
     implementation 'com.github.kishan2612:Material-Backdrop-Android:v1.1.0' // Back Drop Menu
 
 }
